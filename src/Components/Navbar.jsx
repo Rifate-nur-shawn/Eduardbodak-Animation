@@ -1,22 +1,34 @@
 import React from 'react';
-import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="navbar-container">
-        <div className="navbar-brand">
-          <h2>Animation</h2>
+    <nav className="bg-transparent text-black py-4 sticky top-0 z-50 backdrop-blur-md">
+      <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row justify-between items-center px-8 gap-4 md:gap-0">
+        <div>
+          <h2 className="m-0 text-xl font-semibold bg-black text-white py-2 px-4 rounded tracking-wide">
+            EDUARD ✦ BODAK
+          </h2>
         </div>
-        <ul className="navbar-menu">
-          <li className="navbar-item">
-            <a href="#home" className="navbar-link">Home</a>
+        <ul className="flex list-none m-0 p-0 gap-4 md:gap-8">
+          <li>
+            <a href="#service" className="bg-black text-white no-underline transition-colors duration-300 font-medium py-2 px-6 rounded-full hover:bg-gray-800">
+              SERVICE
+            </a>
           </li>
-          <li className="navbar-item">
-            <a href="#about" className="navbar-link">About</a>
+          <li>
+            <a href="#prozess" className="text-black no-underline transition-colors duration-300 font-medium hover:text-blue-600 hover:drop-shadow-sm">
+              PROZESS
+            </a>
           </li>
-          <li className="navbar-item">
-            <a href="#contact" className="navbar-link">Contact</a>
+          <li>
+            <a href="#preis" className="text-black no-underline transition-colors duration-300 font-medium hover:text-blue-600 hover:drop-shadow-sm">
+              PREIS
+            </a>
+          </li>
+          <li>
+            <a href="#kontakt" className="text-black no-underline transition-colors duration-300 font-medium hover:text-blue-600 hover:drop-shadow-sm">
+              KONTAKT
+            </a>
           </li>
         </ul>
       </div>
