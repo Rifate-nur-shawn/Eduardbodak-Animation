@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+.App {
+  background-color: #F9F4EB;
+  min-height: 100vh;
+}

@@ -1,16 +1,16 @@
-import Navbar from './Components/Navbar'
-import './App.css'
+import Navbar from "./Components/Navbar";
+import "./App.css";
+import Hero from "./Components/Hero/Hero";
 
 function App() {
-
-
-  return (  
+  return (
     <>
-      <div>
+      <div className="min-h-screen bg-[#F9F4EB]">
         <Navbar />
+        <Hero />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
