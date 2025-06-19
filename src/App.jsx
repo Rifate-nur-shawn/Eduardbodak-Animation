@@ -1,6 +1,7 @@
 import Navbar from "./Components/Navbar";
 import "./App.css";
 import Hero from "./Components/Hero/Hero";
+import Dot from "./Components/Dot/Dot";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className="min-h-screen bg-[#F9F4EB]">
         <Navbar />
         <Hero />
+        <Dot />
       </div>
     </>
   );
