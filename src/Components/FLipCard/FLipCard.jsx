@@ -347,7 +347,7 @@ function ServiceCard({
   );
 }
 
-function Service() {
+function FLipCard() {
   const sectionRef = useRef(null);
 
   return (
@@ -383,4 +383,4 @@ function Service() {
   );
 }
 
-export default Service;
+export default FLipCard;
