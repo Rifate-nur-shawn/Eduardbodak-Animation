@@ -2,6 +2,8 @@ import Navbar from "./Components/Navbar";
 import "./App.css";
 import Hero from "./Components/Hero/Hero";
 import Dot from "./Components/Dot/Dot";
+import Service from "./Components/Service/Service";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
         <Navbar />
         <Hero />
         <Dot />
+        <Service/>
+        <Footer />
       </div>
     </>
   );
